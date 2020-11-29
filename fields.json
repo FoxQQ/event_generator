@@ -1,0 +1,41 @@
+{
+    "_time": {
+        "type":"datetime"
+    },
+    "date_created": {
+        "type":"datetime"
+    },
+    "pluginid": {
+        "type":"int",
+        "values": {
+            "min":1000,
+            "max":2000
+        }
+    },
+    "plugintext": {
+        "type":"string",
+        "length": 500
+    },
+    "field1": {
+        "type":"string",
+        "length":3
+    },
+    "field2": {
+        "type":"string"
+    },
+    "field3": {
+        "type":"string"
+    },
+    "vuln_hash":{
+        "type":"string",
+        "length":30
+    },
+    "device_hash":{
+        "type":"string",
+        "length":30
+    },
+    "ip":{
+        "type":"ipv4",
+        "class":"scalar"
+    }
+}
